@@ -1,6 +1,7 @@
 class Solution {
 public:
     int maximalSquare(vector<vector<char>>& matrix) {
+        int a = 0
         int m = matrix.size();
         int n = matrix[0].size();
         vector<vector<int>> id(m, vector<int>(n, -1));
